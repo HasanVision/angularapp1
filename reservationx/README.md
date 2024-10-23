@@ -12,7 +12,7 @@ To set up and run the project:
 4. Run the Angular development server: `ng serve`  
    - Open your browser and go to [http://localhost:4200/](http://localhost:4200/) to view the application.
 5. Run the JSON server in a new terminal: `npm run json`  
-   - Access the JSON API at [http://localhost:3500/conservationAreas](http://localhost:3500/reservationAreas). Here, you will find the list of conservation areas and their available reservation time slots.
+   - Access the JSON API at [http://localhost:3500/reservationAreas](http://localhost:3500/reservationAreas). Here, you will find the list of conservation areas and their available reservation time slots.
 
 ## 🏞 Features
 
