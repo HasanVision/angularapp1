@@ -1,6 +1,6 @@
 module.exports = function () {
     return {
-        conservationAreas: [
+        reservationAreas: [
             { 
                 id: 1, 
                 name: "Maple Ridge Conservation Area", 
@@ -38,6 +38,31 @@ module.exports = function () {
                 ]
             }
         ],
-        reservations: []
+        reservations: [
+            {
+                id: 1,
+                areaId: 2,
+                areaName: "Lakeview Conservation Area",
+                timeSlot: "9:00am - 12:00pm",
+                userName: "John Doe",
+                userEmail: "john.doe@example.com"
+            },
+            {
+                id: 2,
+                areaId: 4,
+                areaName: "Riverbend Conservation Area",
+                timeSlot: "12:00pm - 3:00pm",
+                userName: "Jane Smith",
+                userEmail: "jane.smith@example.com"
+            },
+            {
+                id: 3,
+                areaId: 1,
+                areaName: "Maple Ridge Conservation Area",
+                timeSlot: "3:00pm - 6:00pm",
+                userName: "Alice Johnson",
+                userEmail: "alice.johnson@example.com"
+            }
+        ]
     }
 }
