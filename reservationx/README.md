@@ -1,4 +1,4 @@
-# sportsstoream
+# reservationx
 
 1# clone the repo: git clone https://github.com/HasanVision/angularapp1.git
 2# navigate to : cd resevationx
