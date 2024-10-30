@@ -3,8 +3,8 @@ const APP_SECRET = "myappsecret";
 const USERNAME = "admin";
 const PASSWORD = "secret";
 const mappings = {
- get: ["/api/reservations"],
- post: ["/api/reservations"]
+ get: ["/api/orders", "/orders"],
+ post: ["/api/reservations", "/reservations", "/api/categories", "/categories"]
 }
 
 function requiresAuth(method, url) {
